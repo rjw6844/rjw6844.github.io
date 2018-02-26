@@ -1,0 +1,103 @@
+body {
+    background: #377BEB url("images/background.jpg") no-repeat fixed center;
+    background-size: 1700px 1200px;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 5px 5px 5px #395064; /*-- creates shadow for 3-D effects*/
+}
+
+h2 {
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 5px 5px 5px #395064; /*-- creates shadow for 3-D effects*/
+}
+
+a:link {
+    text-decoration: none; /*--Turns off underline on link references--*/
+    color: #0000FF;
+}
+
+div#nav {
+    height: 40px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+span.menu {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+div#photo {
+    width:1400px;
+    height: 200px;
+    margin: auto;
+}
+
+.photo {
+    float: left;
+    width: 220px;
+    height: 163px;
+    margin: 30px;
+    box-shadow: 5px 5px 5px #395064; /*-- creates shadow for 3-D effects*/
+    transition: all .5s;
+}
+
+img:hover {
+    transform: scale(1.8);
+}
+
+div#narrative {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 1100px;
+    background-color: #95D4FF; 
+    padding: 10px;
+    border: 5px solid #9E6B25;
+    box-shadow: 5px 5px 5px #395064;  /*-- creates shadow for 3-D effects*/
+}
+
+caption {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+table.center { /*--These two lines center the table on the page--*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td, th {
+
+    background-color: #E7FFFF;
+    border: 3px solid #9E6B25;
+    box-shadow: 5px 5px 5px #395064;  /*-- creates shadow for 3-D effects*/
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+div#video {
+    width: 1400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.youtube {
+    float: left; 
+    width: 640px;
+    height: 360px;
+    margin: 25px;
+    box-shadow: 5px 5px 5px #395064;  /*-- creates shadow for 3-D effects*/
+}
+/*-- created by Robert Waldo, rjw6844@gmail.com --*/
+
+    
